@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🗄 Database Schema Documentation
+# Database Schema Documentation
 
 ### Language Center SaaS — MongoDB Collections & Relationships
 
@@ -11,15 +11,15 @@
 ## Table of Contents
 
 - [Overview](#overview)
-- [Core Models](#-core-models)
-- [Academic Models](#-academic-models)
-- [Financial Models](#-financial-models)
-- [Salary Models](#-salary-models)
-- [Communication Models](#-communication-models)
-- [Security Models](#-security-models)
-- [System Models](#-system-models)
-- [Relationships Diagram](#-relationships-diagram)
-- [Indexing Strategy](#-indexing-strategy)
+- [Core Models](#core-models)
+- [Academic Models](#academic-models)
+- [Financial Models](#financial-models)
+- [Salary Models](#salary-models)
+- [Communication Models](#communication-models)
+- [Security Models](#security-models)
+- [System Models](#system-models)
+- [Relationships Diagram](#relationships-diagram)
+- [Indexing Strategy](#indexing-strategy)
 
 ---
 
@@ -35,7 +35,7 @@ The database consists of **39 MongoDB collections** (MongoDB 7.0 with Mongoose 8
 
 ---
 
-## 👤 Core Models
+## Core Models
 
 ### User
 The central identity model supporting 4 roles with comprehensive security features.
@@ -81,7 +81,7 @@ Branch
 
 ---
 
-## 🎓 Academic Models
+## Academic Models
 
 ### Student
 Student profiles with CEFR level tracking and parent/guardian contacts.
@@ -270,7 +270,7 @@ ClassCancellation
 
 ---
 
-## 💰 Financial Models
+## Financial Models
 
 ### Payment
 Payment transactions linked to enrollments and invoices.
@@ -380,7 +380,7 @@ OtherPayment                          CrossPayment
 
 ---
 
-## 📊 Salary Models
+## Salary Models
 
 ### TeacherSalary
 Individual teacher salary records calculated from attendance.
@@ -479,7 +479,7 @@ AdminSalary
 
 ---
 
-## 🔔 Communication Models
+## Communication Models
 
 ### Notification
 
@@ -514,7 +514,7 @@ EmailLog
 
 ---
 
-## 🔐 Security Models
+## Security Models
 
 ### LoginHistory
 
@@ -565,7 +565,7 @@ RefreshToken                          PasswordReset
 
 ---
 
-## ⚙️ System Models
+## System Models
 
 ### ActivityLog
 Comprehensive audit trail with before/after state diffs.
@@ -605,7 +605,7 @@ SystemConfig                    StorageFolder / StoredFile
 
 ---
 
-## 🔗 Relationships Diagram
+## Relationships Diagram
 
 ```
                          ┌──────────┐
@@ -652,7 +652,7 @@ Cross-cutting:
 
 ---
 
-## 📇 Indexing Strategy
+## Indexing Strategy
 
 ### Primary Indexes
 

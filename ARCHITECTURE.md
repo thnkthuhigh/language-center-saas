@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🏗 System Architecture
+# System Architecture
 
 ### Language Center SaaS — Technical Architecture Deep-Dive
 

@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🎓 Language Center SaaS — Management Platform
+# Language Center SaaS — Management Platform
 
 ### Enterprise-grade management system for English language centers
 
@@ -24,25 +24,25 @@
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
-- [Live Demo](#-live-demo)
-- [Technical Highlights](#-technical-highlights)
-- [Key Features](#-key-features)
-- [Tech Stack](#-tech-stack)
-- [System Architecture](#-system-architecture)
-- [Project Scale](#-project-scale)
-- [Role-Based Access](#-role-based-access)
-- [Security](#-security)
-- [Performance & Optimization](#-performance--optimization)
-- [Testing & Quality](#-testing--quality)
-- [DevOps & Deployment](#-devops--deployment)
+- [Live Demo](#live-demo)
+- [Technical Highlights](#technical-highlights)
+- [Key Features](#key-features)
+- [Tech Stack](#tech-stack)
+- [System Architecture](#system-architecture)
+- [Project Scale](#project-scale)
+- [Role-Based Access](#role-based-access)
+- [Security](#security)
+- [Performance & Optimization](#performance--optimization)
+- [Testing & Quality](#testing--quality)
+- [DevOps & Deployment](#devops--deployment)
 - [API Reference](API-EXAMPLES.md)
-- [Screenshots](#-screenshots)
-- [About & Challenges](#-about--engineering-challenges)
-- [Source Code](#-source-code)
-- [Contact](#-contact)
+- [Screenshots](#screenshots)
+- [About & Challenges](#about--engineering-challenges)
+- [Source Code](#source-code)
+- [Contact](#contact)
 
 ---
 
@@ -62,7 +62,7 @@ This is not a tutorial project — it is a **real-world production system** serv
 
 ---
 
-## 💡 Technical Highlights
+## Technical Highlights
 
 What sets this project apart from typical portfolio projects:
 
@@ -83,7 +83,7 @@ What sets this project apart from typical portfolio projects:
 
 ---
 
-## 🌐 Live Demo
+## Live Demo
 
 > **🔗 [https://www.englishforkids.me/](https://www.englishforkids.me/)**
 
@@ -95,9 +95,9 @@ The application is **live in production**, deployed on a DigitalOcean VPS with:
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
-### 🎓 Academic Management
+### Academic Management
 | Feature | Description |
 |---------|-------------|
 | **Student Lifecycle** | Complete flow: Registration → Enrollment → Class Assignment → Transfer → Graduation |
@@ -109,7 +109,7 @@ The application is **live in production**, deployed on a DigitalOcean VPS with:
 | **Teacher Assignment** | Teacher allocation with substitution management |
 | **Teaching Schedule** | Visual calendar view of all teaching sessions |
 
-### 💰 Financial System
+### Financial System
 | Feature | Description |
 |---------|-------------|
 | **Payment Cycles** | Support for 1/4/8/12-week payment periods |
@@ -121,7 +121,7 @@ The application is **live in production**, deployed on a DigitalOcean VPS with:
 | **Extension Proposals** | Payment deadline extension workflow |
 | **Financial Reports** | Revenue analysis with Excel/PDF export |
 
-### 📊 Salary & Payroll
+### Salary & Payroll
 | Feature | Description |
 |---------|-------------|
 | **Teacher Salary** | Attendance-based compensation with salary codes (K1, K2, K3 tiers) |
@@ -130,7 +130,7 @@ The application is **live in production**, deployed on a DigitalOcean VPS with:
 | **Salary Periods** | Monthly period management with batch processing |
 | **Detailed Breakdown** | Per-session salary calculation with full audit trail |
 
-### 📈 Analytics & Reporting
+### Analytics & Reporting
 | Feature | Description |
 |---------|-------------|
 | **Owner Dashboard** | Revenue metrics, enrollment trends, class performance at a glance |
@@ -139,7 +139,7 @@ The application is **live in production**, deployed on a DigitalOcean VPS with:
 | **Student Analytics** | Enrollment funnels, retention rates, level distribution |
 | **Custom Reports** | Generate PDF/Excel reports with configurable filters |
 
-### 🔔 Real-Time & Communication
+### Real-Time & Communication
 | Feature | Description |
 |---------|-------------|
 | **Socket.IO Integration** | Live attendance updates, payment notifications, salary approvals |
@@ -147,13 +147,13 @@ The application is **live in production**, deployed on a DigitalOcean VPS with:
 | **In-App Notifications** | Real-time notification bell with read/unread management |
 | **Automated Reminders** | Cron-based payment due dates, birthday alerts, enrollment activations |
 
-### 🤖 AI Integration
+### AI Integration
 | Feature | Description |
 |---------|-------------|
 | **Google Vertex AI** | AI-powered suggestions for class management and data analysis |
 | **Smart Formatting** | AI document formatting and content structuring |
 
-### ☁️ Cloud & Storage
+### Cloud & Storage
 | Feature | Description |
 |---------|-------------|
 | **AWS S3** | File storage with presigned URLs for secure access |
@@ -164,7 +164,7 @@ The application is **live in production**, deployed on a DigitalOcean VPS with:
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 ### Frontend
 
@@ -225,7 +225,7 @@ The application is **live in production**, deployed on a DigitalOcean VPS with:
 
 ---
 
-## 🏗 System Architecture
+## System Architecture
 
 ```
                         ┌──────────────────┐
@@ -312,7 +312,7 @@ App.tsx
 
 ---
 
-## 📊 Project Scale
+## Project Scale
 
 | Category | Count |
 |----------|-------|
@@ -335,7 +335,7 @@ App.tsx
 
 ---
 
-## 👥 Role-Based Access
+## Role-Based Access
 
 The system supports **4 distinct user roles**, each with a dedicated dashboard and tailored permissions:
 
@@ -372,7 +372,7 @@ File Storage                ✅     ✅      ❌        ❌
 
 ---
 
-## 🔐 Security
+## Security
 
 ### Authentication & Authorization
 - **JWT tokens** with HTTP-only cookies and refresh token rotation
@@ -409,7 +409,7 @@ File Storage                ✅     ✅      ❌        ❌
 
 ---
 
-## ⚡ Performance & Optimization
+## Performance & Optimization
 
 ### Frontend
 - **Code splitting** — Vite lazy-loading with `React.lazy()` for 80+ pages
@@ -434,7 +434,7 @@ File Storage                ✅     ✅      ❌        ❌
 
 ---
 
-## 🧪 Testing & Quality
+## Testing & Quality
 
 ### Test Infrastructure
 
@@ -472,7 +472,7 @@ File Storage                ✅     ✅      ❌        ❌
 
 ---
 
-## 🐳 DevOps & Deployment
+## DevOps & Deployment
 
 ### Production Architecture
 
@@ -518,7 +518,7 @@ Docker Compose (Production)
 
 ---
 
-## 🔌 API Reference
+## API Reference
 
 The system exposes **200+ RESTful endpoints** across 44 route modules with consistent response formats, role-based authorization, and Redis caching.
 
@@ -542,7 +542,7 @@ Every endpoint returns standardized JSON:
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 > 📷 Screenshots are being prepared. In the meantime, you can explore the live application:
 >
@@ -589,7 +589,7 @@ When screenshots are ready, replace this section with:
 
 ---
 
-## 🗂 Repository Structure
+## Repository Structure
 
 ```
 language-center-saas/
@@ -612,7 +612,7 @@ language-center-saas/
 
 ---
 
-## 🎬 Demo Video
+## Demo Video
 
 > 🎥 A full walkthrough demo video is being recorded and will be linked here.
 >
@@ -620,7 +620,7 @@ language-center-saas/
 
 ---
 
-## 🧑‍💻 About & Engineering Challenges
+## About & Engineering Challenges
 
 ### Who Built This
 
@@ -645,11 +645,11 @@ I'm a full-stack developer who built this entire platform **solo** — from data
 
 ---
 
-## 📄 Source Code
+## Source Code
 
 > **This repository is a showcase of the project.** The full source code is in a private repository due to proprietary business logic, API keys, and client data protection.
 
-### 🔓 Access Policy
+### Access Policy
 - **Source code is available upon request** for potential employers and recruiters
 - Contact me directly and I will grant collaborator access to the private repository
 - Happy to do a **live code walkthrough** or **technical deep-dive** in an interview setting
@@ -665,7 +665,7 @@ I'm a full-stack developer who built this entire platform **solo** — from data
 
 ---
 
-## 📬 Contact
+## Contact
 
 If you'd like to discuss this project, request source code access, or schedule a technical walkthrough:
 

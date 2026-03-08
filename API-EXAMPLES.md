@@ -1,4 +1,4 @@
-# 🔌 API Reference & Examples
+# API Reference & Examples
 
 > Real request/response examples from the production REST API.  
 > The system exposes **200+ endpoints** across **44 route modules** with Swagger/OpenAPI documentation.
@@ -7,22 +7,22 @@
 
 ## Table of Contents
 
-- [Authentication](#-authentication)
-- [Standard Response Format](#-standard-response-format)
-- [Students](#-students)
-- [Classes](#-classes)
-- [Attendance](#-attendance)
-- [Payments](#-payments)
-- [Enrollments](#-enrollments)
-- [Teacher Salary](#-teacher-salary)
-- [Analytics](#-analytics)
-- [Receipts & Invoices](#-receipts--invoices)
-- [Endpoint Summary](#-endpoint-summary)
-- [Rate Limiting](#-rate-limiting)
+- [Authentication](#authentication)
+- [Standard Response Format](#standard-response-format)
+- [Students](#students)
+- [Classes](#classes)
+- [Attendance](#attendance)
+- [Payments](#payments)
+- [Enrollments](#enrollments)
+- [Teacher Salary](#teacher-salary)
+- [Analytics](#analytics)
+- [Receipts & Invoices](#receipts--invoices)
+- [Endpoint Summary](#endpoint-summary)
+- [Rate Limiting](#rate-limiting)
 
 ---
 
-## 🔐 Authentication
+## Authentication
 
 All protected endpoints require a Bearer token:
 
@@ -114,7 +114,7 @@ Authenticate user and receive JWT token. Supports 2FA via Google Authenticator.
 
 ---
 
-## 📦 Standard Response Format
+## Standard Response Format
 
 All endpoints follow a consistent response structure:
 
@@ -155,7 +155,7 @@ All endpoints follow a consistent response structure:
 
 ---
 
-## 👨‍🎓 Students
+## Students
 
 ### `GET /api/students`
 
@@ -275,7 +275,7 @@ Create a new student record.
 
 ---
 
-## 📚 Classes
+## Classes
 
 ### `GET /api/classes`
 
@@ -369,7 +369,7 @@ Retrieve classes with schedule, teacher, enrollment stats, and salary config.
 
 ---
 
-## ✅ Attendance
+## Attendance
 
 ### `POST /api/attendance`
 
@@ -483,7 +483,7 @@ Record or update attendance for a class session. Automatically creates makeup se
 
 ---
 
-## 💰 Payments
+## Payments
 
 ### `POST /api/payments/:paymentId/record`
 
@@ -574,7 +574,7 @@ Record a payment for a student's enrollment. Supports partial payments, multiple
 
 ---
 
-## 📝 Enrollments
+## Enrollments
 
 ### `POST /api/enrollments`
 
@@ -608,7 +608,7 @@ Enroll a student in a class with payment cycle configuration.
 
 ---
 
-## 👨‍🏫 Teacher Salary
+## Teacher Salary
 
 ### `POST /api/teacher-salary/calculate`
 
@@ -637,7 +637,7 @@ Calculate salary for a teacher based on attendance records and salary codes (K1/
 
 ---
 
-## 📊 Analytics
+## Analytics
 
 ### `GET /api/analytics/dashboard`
 
@@ -697,7 +697,7 @@ Comprehensive dashboard data for center owners. Cached with 15-minute TTL.
 
 ---
 
-## 🧾 Receipts & Invoices
+## Receipts & Invoices
 
 ### Receipt Endpoints
 
@@ -724,7 +724,7 @@ Comprehensive dashboard data for center owners. Cached with 15-minute TTL.
 
 ---
 
-## 📋 Endpoint Summary
+## Endpoint Summary
 
 | Module | Routes | Auth | Description |
 |--------|--------|------|-------------|
@@ -743,7 +743,7 @@ Comprehensive dashboard data for center owners. Cached with 15-minute TTL.
 
 ---
 
-## 🛡️ Rate Limiting
+## Rate Limiting
 
 | Tier | Limit | Applied To |
 |------|-------|-----------|
@@ -756,7 +756,7 @@ Comprehensive dashboard data for center owners. Cached with 15-minute TTL.
 
 ---
 
-## ⚙️ Middleware Pipeline
+## Middleware Pipeline
 
 Every request passes through this middleware stack:
 
@@ -777,7 +777,7 @@ Request
 
 ---
 
-## 🔗 Caching Strategy
+## Caching Strategy
 
 | Key Pattern | TTL | Description |
 |-------------|-----|-------------|
